@@ -91,12 +91,4 @@ plt.xlabel('Day of Week')
 plt.ylabel('Frequency')
 plt.show()
 
-# Plot consumer spending behavior per store in the same graph
-plt.figure(figsize=(12, 6))
-for store in stores:
-    plt.plot(data.index, data[store], label=store)
-plt.title('Consumer Spending Behavior per Store')
-plt.xlabel('Date')
-plt.ylabel('Sales')
-plt.grid(True)
-plt.show()
+
